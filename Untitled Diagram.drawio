@@ -1,20 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-04-16T02:45:13.216Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Vqf40vzmmaF-Vmxw4Unp" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-16T02:55:16.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wnUuyc6hFZ5oR2AENHVA" version="21.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2062" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2327" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;RequestCondition&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ combine(Type): Type&lt;br&gt;+&amp;nbsp;getMatchingCondition&lt;span style=&quot;background-color: initial;&quot;&gt;(HttpServletRequest): Type&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;compareTo(Type, HttpServletRequest): int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1065" y="20" width="280" height="100" as="geometry" />
+          <mxGeometry x="1065" y="-30" width="280" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-7" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1198.43" y="120" width="13.13" height="17.5" as="geometry" />
-        </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="_jQ9eD4qekJZtNcQ8m0i-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1205" y="180" as="sourcePoint" />
-            <mxPoint x="1215" y="170" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-12" target="_jQ9eD4qekJZtNcQ8m0i-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;AbstractRequestCondition&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;AbstractRequestCondition+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;isEmpty&lt;span style=&quot;background-color: initial;&quot;&gt;(): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;getContent():&amp;nbsp;Collection&amp;lt;?&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;getToStringInfix(): String&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ equals(): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ hashCode(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ toString(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1090" y="150" width="230" height="170" as="geometry" />
@@ -28,25 +22,41 @@
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProducesRequestCondition&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- parseExpressions(produces: String[], headers: String[]): List&amp;lt;ProduceMediaTypeExpression&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getExpressions(): Set&amp;lt;MediaTypeExpression&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getProducableMediaTypes(): Set&amp;lt;MediaType&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;isEmpty&lt;span style=&quot;background-color: initial;&quot;&gt;(): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getContent():&amp;nbsp;List&amp;lt;ProduceMediaTypeExpression&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getToStringInfix(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ combine(other: ProducesRequestCondition): ProducesRequestCondition&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMatchingCondition(request: HttpServletRequest): ProducesRequestCondition&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- getMatchingExpressions(contentType: MediaType): List&amp;lt;ProduceMediaTypeExpression&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ compareTo(other: ProducesRequestCondition, request: HttpServletRequest): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- getAcceptedMediaTypes(request: HttpServletRequest): List&amp;lt;MediaType&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- indexOfEqualMediaType(mediaType: MediaType): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- indexOfIncludedMediaType(mediaType: MediaType): int&lt;/p&gt;&amp;nbsp;- compareMatchingMediaTypes(condition1: ProducesRequestCondition, index1: int, condition2: ProducesRequestCondition, index2: int): int&lt;br&gt;&amp;nbsp;-&amp;nbsp;getExpressionsToCompare(): List&amp;lt;ProducesMediaTypeExpression&amp;gt;&lt;br&gt;&amp;nbsp;+&amp;nbsp;clearMediaTypesAttribute(request: HttpServletRequest): void" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="490" width="390" height="370" as="geometry" />
         </mxCell>
+        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-16" target="_jQ9eD4qekJZtNcQ8m0i-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RequestMethodsRequestCondition&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMethods(): Set&amp;lt;RequestMethod&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getContent():&amp;nbsp;Collection&amp;lt;RequestMethod&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getToStringInfix(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ combine(other: RequestMethodRequestCondition): RequestMethodRequestCondition&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMatchingCondition(request: HttpServletRequest): RequestMethodRequestCondition&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- getMatchingExpressions(contentType: MediaType): List&amp;lt;RequestMethodRequestCondition&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;matchPreFlight(request: HttpServletRequest): RequestMethodsRequestCondition&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ matchRequestMethod(httpMethodValue: String):&amp;nbsp;RequestMethodsRequestCondition&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ compareTo(other:&amp;nbsp;RequestMethodsRequestCondition&lt;span style=&quot;background-color: initial;&quot;&gt;, request: HttpServletRequest): int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1010" y="490" width="390" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-17" target="_jQ9eD4qekJZtNcQ8m0i-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1625" y="420" />
+              <mxPoint x="1205" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ParamsRequestCondition&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&amp;nbsp;- parseExpressions(params: String...): Set&amp;lt;ParamExpression&amp;gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getExpressions(): Set&amp;lt;NameValueExpression&amp;lt;String&amp;gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getContent():&amp;nbsp;Collection&amp;lt;ParamExpression&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getToStringInfix(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ combine(other:&amp;nbsp;ParamsRequestCondition&lt;span style=&quot;background-color: initial;&quot;&gt;):&amp;nbsp;&lt;/span&gt;ParamsRequestCondition&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMatchingCondition(request: HttpServletRequest):&amp;nbsp;ParamsRequestCondition&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ compareTo(other:&amp;nbsp;ParamsRequestCondition&lt;span style=&quot;background-color: initial;&quot;&gt;, request: HttpServletRequest): int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- getValueMatchCount(expressions: Set&amp;lt;ParamExpression&amp;gt;): long&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1430" y="490" width="390" height="210" as="geometry" />
         </mxCell>
+        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=blockThin;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-18" target="_jQ9eD4qekJZtNcQ8m0i-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2040" y="420" />
+              <mxPoint x="1205" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;HeadersRequestCondition&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&amp;nbsp;- parseExpressions(params: String...): Set&amp;lt;HeaderExpression&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getExpressions(): Set&amp;lt;NameValueExpression&amp;lt;String&amp;gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getContent():&amp;nbsp;Collection&amp;lt;HeaderExpression&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getToStringInfix(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ combine(other:&amp;nbsp;HeadersRequestCondition&lt;span style=&quot;background-color: initial;&quot;&gt;):&amp;nbsp;&lt;/span&gt;HeadersRequestCondition&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMatchingCondition(request: HttpServletRequest):&amp;nbsp;HeadersRequestCondition&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ compareTo(other:&amp;nbsp;HeadersRequestCondition&lt;span style=&quot;background-color: initial;&quot;&gt;, request: HttpServletRequest): int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- getValueMatchCount(expressions: Set&amp;lt;HeaderExpression&amp;gt;): long&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1840" y="490" width="400" height="210" as="geometry" />
         </mxCell>
+        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-21" target="_jQ9eD4qekJZtNcQ8m0i-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;AbstractNameValueExpression&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1680" y="910" width="400" height="90" as="geometry" />
+          <mxGeometry x="1700" y="110" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-23" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-57" target="_jQ9eD4qekJZtNcQ8m0i-21">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="2040" y="220" as="sourcePoint" />
-            <mxPoint x="2040" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-24" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-57" target="_jQ9eD4qekJZtNcQ8m0i-18">
+        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-24" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-57" target="_jQ9eD4qekJZtNcQ8m0i-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2040" y="340" as="sourcePoint" />
             <mxPoint x="1980" y="180" as="targetPoint" />
@@ -133,10 +143,12 @@
             <mxPoint x="390" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-44" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-58" target="_jQ9eD4qekJZtNcQ8m0i-21">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1625" y="220" as="sourcePoint" />
-            <mxPoint x="2050" y="160" as="targetPoint" />
+        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-47" target="_jQ9eD4qekJZtNcQ8m0i-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2480" y="420" />
+              <mxPoint x="1205" y="420" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;&quot;&gt;PatternsRequestCondition&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- EMPTY_PATH_PATTERN: Set&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ROOT_PATH_PATTERNS: String[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- patterns: Set&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- pathMatcher: PathMatcher&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- useSuffixPatternMatch: boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- useTrailingSlashMatch: boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- fileExtensions: List&amp;lt;String&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- initPatterns(patterns: String[]): Set&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- hasPattern(patterns: String[]): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPatterns(): Set&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# getContent():&amp;nbsp;Collection&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# getToStringInfix(): String&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ isEmptyPathMapping(): boolean&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getDirectPaths(): Set&amp;lt;String&amp;gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ combine(other: PatternsRequestCondition&lt;span style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;): PatternsRequestCondition&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;- assertNumberOfConditions(other: CompositeRequestCondition): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getMatchingCondition(request: HttpServletRequest): PatternsRequestCondition&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;getMatchingPatterns(lookupPath: String)&lt;span style=&quot;background-color: initial;&quot;&gt;: List&amp;lt;String&amp;gt;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;+&amp;nbsp;getMatchingPattern(pattern: String, lookupPath: String): String&lt;br&gt;&amp;nbsp;+ compareTo(other: PatternsRequestCondition, request:&amp;nbsp;HttpServletRequest&lt;span style=&quot;background-color: initial;&quot;&gt;): int&lt;/span&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -151,89 +163,41 @@
             <mxPoint x="2410" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-50" target="_jQ9eD4qekJZtNcQ8m0i-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2890" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2910" y="420" />
+              <mxPoint x="1205" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-50" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;&quot;&gt;PathPatternsRequestCondition&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- EMPTY_PATH_PATTERN: SortedSet&amp;lt;PathPattern&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- EMPTY_PATH: Set&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ROOT_PATH_PATTERNS: SortedSet&amp;lt;PathPattern&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- patterns: SortedSet&amp;lt;PathPattern&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- pathMatcher: PathMatcher&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- useSuffixPatternMatch: boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- useTrailingSlashMatch: boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- fileExtensions: List&amp;lt;String&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getPatterns(): Set&amp;lt;String&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# getContent():&amp;nbsp;Collection&amp;lt;PathPattern&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# getToStringInfix(): String&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getFirstPattern(): PathPattern&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ isEmptyPathMapping(): boolean&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getDirectPaths(): Set&amp;lt;String&amp;gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getPatternValues(): Set&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ combine(other: PathPatternsRequestCondition&lt;span style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;): PathPatternsRequestCondition&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getMatchingCondition(request: HttpServletRequest): PathPatternsRequestCondition&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;getMatchingPatterns(path: PathContainer)&lt;span style=&quot;background-color: initial;&quot;&gt;: SortedSet&amp;lt;PathPattern&amp;gt;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;+ compareTo(other: PathPatternsRequestCondition, request:&amp;nbsp;HttpServletRequest): int&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2710" y="490" width="400" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-51" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-13" target="_jQ9eD4qekJZtNcQ8m0i-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="540" y="420" as="sourcePoint" />
-            <mxPoint x="700" y="420" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-52" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-14" target="_jQ9eD4qekJZtNcQ8m0i-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="15" y="500" as="sourcePoint" />
-            <mxPoint x="325" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-53" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.377;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-15" target="_jQ9eD4qekJZtNcQ8m0i-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="25" y="510" as="sourcePoint" />
-            <mxPoint x="335" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-54" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-16" target="_jQ9eD4qekJZtNcQ8m0i-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="35" y="520" as="sourcePoint" />
-            <mxPoint x="345" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-55" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-17" target="_jQ9eD4qekJZtNcQ8m0i-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="45" y="530" as="sourcePoint" />
-            <mxPoint x="355" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-56" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-18" target="_jQ9eD4qekJZtNcQ8m0i-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="55" y="540" as="sourcePoint" />
-            <mxPoint x="365" y="410" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-57" target="_jQ9eD4qekJZtNcQ8m0i-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-57" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;HeaderExpression&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# isCaseSensitiveName(): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# parseValue(valueExpression: String): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# matchName(request:&amp;nbsp;HttpServletRequest&lt;span style=&quot;background-color: initial;&quot;&gt;): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;# matchValue(request:&amp;nbsp;&lt;/span&gt;HttpServletRequest): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1840" y="1090" width="400" height="120" as="geometry" />
+          <mxGeometry x="1890" y="260" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=blockThin;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-58" target="_jQ9eD4qekJZtNcQ8m0i-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-58" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;&quot;&gt;ParamExpression&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- namesToMatch: Set&amp;lt;String&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# isCaseSensitiveName(): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# parseValue(valueExpression: String): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# matchName(request: HttpServletRequest): boolean&lt;/p&gt;&amp;nbsp;# matchValue(request:&amp;nbsp;HttpServletRequest): boolean" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1425" y="1090" width="400" height="120" as="geometry" />
+          <mxGeometry x="1470" y="260" width="315" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-59" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-17" target="_jQ9eD4qekJZtNcQ8m0i-58">
+        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-59" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-17" target="_jQ9eD4qekJZtNcQ8m0i-58">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1630" y="700" as="sourcePoint" />
             <mxPoint x="1680" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-60" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-47" target="_jQ9eD4qekJZtNcQ8m0i-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="2050" y="500" as="sourcePoint" />
-            <mxPoint x="1330" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-61" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-50" target="_jQ9eD4qekJZtNcQ8m0i-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="2060" y="510" as="sourcePoint" />
-            <mxPoint x="1340" y="340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-62" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;&quot;&gt;RequestConditionHolder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- condition: RequestCondition&amp;lt;Object&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getCondition(): RequestCondition&amp;lt;?&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# getContent():&amp;nbsp;Collection&amp;lt;?&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# getToStringInfix(): String&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ combine(other: RequestConditionHolder&lt;span style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;): RequestConditionHolder&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;- assertEqualConditionTypes(thisCondition: RequestCondition&amp;lt;?&amp;gt;, otherCondition: RequestCondition&amp;lt;?&amp;gt;): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getMatchingCondition(request: HttpServletRequest): RequestConditionHolder&lt;/p&gt;&amp;nbsp;+ compareTo(other: RequestConditionHolder, request:&amp;nbsp;HttpServletRequest): int&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-590" y="490" width="400" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-63" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-62" target="_jQ9eD4qekJZtNcQ8m0i-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="15" y="500" as="sourcePoint" />
-            <mxPoint x="1100" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-64" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;NameValueExpression&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getName(): String&lt;br&gt;+&amp;nbsp;getValue&lt;span style=&quot;background-color: initial;&quot;&gt;(): Type&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;isNegated(): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1740" y="740" width="280" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-65" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1873.44" y="840" width="13.13" height="17.5" as="geometry" />
-        </mxCell>
-        <mxCell id="_jQ9eD4qekJZtNcQ8m0i-66" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jQ9eD4qekJZtNcQ8m0i-21" target="_jQ9eD4qekJZtNcQ8m0i-65">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1879.4099999999999" y="905" as="sourcePoint" />
-            <mxPoint x="1879" y="860" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="1700" y="-30" width="280" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_jQ9eD4qekJZtNcQ8m0i-71" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MediaTypeExpression&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMediaType(): MediaType&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;isNegated(): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-105" y="830" width="315" height="80" as="geometry" />
