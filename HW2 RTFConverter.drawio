@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T15:04:43.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="aDXjcW7HBEpRFQargDPa" version="21.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-12T15:06:08.398Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="u8CPiYBHGbWfIxxccuG_" version="21.2.9" type="github" pages="2">
   <diagram name="initialDesign" id="O0G_r-xcLkvV23Vq3-Iy">
     <mxGraphModel dx="1050" dy="582" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="QQum5BAwwPmxUPZXqS6y" name="Page-2">
+  <diagram id="QQum5BAwwPmxUPZXqS6y" name="refactoredDesign">
     <mxGraphModel dx="1050" dy="582" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -94,7 +94,7 @@
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="JhMXqLvKe_6De1wjjEH--14" value="&amp;nbsp; if(converter.containsKey(TextFormat)){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; converter.get(TextFormat).convert();&lt;br&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; else {&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; print(&quot;RTF Reader does not provide&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this kind of text format conversion.&quot;);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; }&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="35" y="225" width="239" height="192" as="geometry" />
+          <mxGeometry x="35" y="225" width="239" height="144" as="geometry" />
         </mxCell>
         <mxCell id="JhMXqLvKe_6De1wjjEH--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="JhMXqLvKe_6De1wjjEH--15" target="JhMXqLvKe_6De1wjjEH--25">
           <mxGeometry relative="1" as="geometry" />
