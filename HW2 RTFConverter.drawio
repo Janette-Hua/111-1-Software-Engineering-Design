@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T04:36:07.945Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="6wTWjy9MXdl1PEy3HU_i" version="21.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-13T04:38:32.846Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nuUhDTbkG8q7nxCfZqkq" version="21.2.9" type="github" pages="3">
   <diagram name="initialDesign" id="O0G_r-xcLkvV23Vq3-Iy">
     <mxGraphModel dx="1050" dy="582" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -272,7 +272,7 @@
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SyyubwMdsi2-YGcE8jGi-1" value="TexConverter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="274" y="418" width="160" height="108" as="geometry" />
+          <mxGeometry x="274" y="418" width="160" height="95" as="geometry" />
         </mxCell>
         <mxCell id="SyyubwMdsi2-YGcE8jGi-2" value="RTFTokenMap: Map&amp;lt;char, char&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SyyubwMdsi2-YGcE8jGi-1">
           <mxGeometry y="26" width="160" height="34" as="geometry" />
@@ -280,11 +280,11 @@
         <mxCell id="SyyubwMdsi2-YGcE8jGi-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SyyubwMdsi2-YGcE8jGi-1">
           <mxGeometry y="60" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="SyyubwMdsi2-YGcE8jGi-4" value="convert(RTFDocument, RTFToken)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SyyubwMdsi2-YGcE8jGi-1">
-          <mxGeometry y="68" width="160" height="40" as="geometry" />
+        <mxCell id="SyyubwMdsi2-YGcE8jGi-4" value="convert(RTFDocument)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SyyubwMdsi2-YGcE8jGi-1">
+          <mxGeometry y="68" width="160" height="27" as="geometry" />
         </mxCell>
         <mxCell id="SyyubwMdsi2-YGcE8jGi-5" value="TextWidgetConverter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="418" width="160" height="108" as="geometry" />
+          <mxGeometry x="500" y="418" width="160" height="96" as="geometry" />
         </mxCell>
         <mxCell id="SyyubwMdsi2-YGcE8jGi-6" value="RTFTokenMap: Map&amp;lt;char, String&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SyyubwMdsi2-YGcE8jGi-5">
           <mxGeometry y="26" width="160" height="34" as="geometry" />
@@ -292,8 +292,8 @@
         <mxCell id="SyyubwMdsi2-YGcE8jGi-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SyyubwMdsi2-YGcE8jGi-5">
           <mxGeometry y="60" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="SyyubwMdsi2-YGcE8jGi-8" value="convert(RTFDocument, RTFToken)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SyyubwMdsi2-YGcE8jGi-5">
-          <mxGeometry y="68" width="160" height="40" as="geometry" />
+        <mxCell id="SyyubwMdsi2-YGcE8jGi-8" value="convert(RTFDocument)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SyyubwMdsi2-YGcE8jGi-5">
+          <mxGeometry y="68" width="160" height="28" as="geometry" />
         </mxCell>
         <mxCell id="psicviCFeyalaA8SNKge-1" value="&amp;nbsp; RTFTokenMap.put(&#39;C&#39;, &#39;c&#39;);&lt;br&gt;&amp;nbsp; RTFTokenMap.put(&#39;F&#39;, &#39;_&#39;);&lt;br&gt;&amp;nbsp; RTFTokenMap.put(&#39;P&#39;, &#39;|&#39;);" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="66" y="406" width="170" height="83" as="geometry" />
@@ -302,13 +302,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="psicviCFeyalaA8SNKge-3" value="&amp;nbsp; RTFTokenMap.put(&#39;C&#39;, &#39;&amp;lt;Char&amp;gt;&#39;);&lt;br&gt;&amp;nbsp; RTFTokenMap.put(&#39;F&#39;, &#39;&amp;lt;Font&amp;gt;&#39;);&lt;br&gt;&amp;nbsp; RTFTokenMap.put(&#39;P&#39;, &#39;&amp;lt;Paragraph&amp;gt;&#39;);" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="698" y="419.5" width="230" height="83" as="geometry" />
+          <mxGeometry x="698" y="419.5" width="230" height="81.5" as="geometry" />
         </mxCell>
         <mxCell id="psicviCFeyalaA8SNKge-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="SyyubwMdsi2-YGcE8jGi-6" target="psicviCFeyalaA8SNKge-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oOHYkU2Xt0nJhaEKYtPD-1" value="&amp;nbsp;for(c in RTFDocument.data){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;res.add(RTFToken.get());&lt;br&gt;&amp;nbsp;RTFDocument.data = res;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="25" y="556" width="242" height="197" as="geometry" />
+        <mxCell id="oOHYkU2Xt0nJhaEKYtPD-1" value="&amp;nbsp;for(c in RTFDocument.data){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;res.add(RTFTokenMap.get(c));&lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;RTFDocument.data = res;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="55.5" y="536" width="191" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="9mhrUbg3Ex7B4i6IGKTB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="SyyubwMdsi2-YGcE8jGi-4" target="oOHYkU2Xt0nJhaEKYtPD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mhrUbg3Ex7B4i6IGKTB-2" value="&amp;nbsp;for(c in RTFDocument.data){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;res.add(RTFTokenMap.get(c));&lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;RTFDocument.data = res;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="536" width="191" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="9mhrUbg3Ex7B4i6IGKTB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;entryX=0;entryY=0;entryDx=83;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SyyubwMdsi2-YGcE8jGi-8" target="9mhrUbg3Ex7B4i6IGKTB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="693" y="537" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
