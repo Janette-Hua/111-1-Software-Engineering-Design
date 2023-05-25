@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T13:34:34.348Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Gue_8A93-dGwgxKFlsXl" version="21.3.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-25T13:38:07.633Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-wPiQa042oJsn35CHYyb" version="21.3.3" type="github" pages="2">
   <diagram name="initialDesign" id="0KFL5eHQTMtoy3ooleH-">
     <mxGraphModel dx="968" dy="575" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="f_LWMpRgxfcn3GM-Yx6G-4" value="Email" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="471" y="182" width="140" height="52" as="geometry">
+          <mxGeometry x="471" y="195" width="140" height="52" as="geometry">
             <mxRectangle x="460" y="319" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -112,7 +112,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f_LWMpRgxfcn3GM-Yx6G-9" value="SpamBox" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="322.5" y="302" width="140" height="52" as="geometry">
+          <mxGeometry x="324" y="288" width="140" height="52" as="geometry">
             <mxRectangle x="450" y="160" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -123,7 +123,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f_LWMpRgxfcn3GM-Yx6G-12" value="LegalDepartment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="471.5" y="302" width="140" height="52" as="geometry">
+          <mxGeometry x="471" y="288" width="140" height="52" as="geometry">
             <mxRectangle x="450" y="160" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -134,7 +134,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f_LWMpRgxfcn3GM-Yx6G-15" value="CEO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="619.5" y="302" width="140" height="52" as="geometry">
+          <mxGeometry x="619" y="288" width="140" height="52" as="geometry">
             <mxRectangle x="450" y="160" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -185,13 +185,16 @@
         <mxCell id="2WlPfbiQfaZ5R6uw7ZjX-2" value="handle(Email)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="2WlPfbiQfaZ5R6uw7ZjX-1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sF0zogOhZZLt-zc2PAyg-1" value="&amp;lt;&amp;lt;interface&amp;gt;&lt;br&gt;&lt;i&gt;Handler&lt;/i&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210.5" y="388" width="140" height="56" as="geometry">
+        <mxCell id="sF0zogOhZZLt-zc2PAyg-1" value="&lt;i&gt;Handler&lt;/i&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210.5" y="375" width="140" height="74" as="geometry">
             <mxRectangle x="375" y="462" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sF0zogOhZZLt-zc2PAyg-2" value="&lt;i&gt;handle(Email)&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sF0zogOhZZLt-zc2PAyg-1">
-          <mxGeometry y="30" width="140" height="26" as="geometry" />
+        <mxCell id="sF0zogOhZZLt-zc2PAyg-2" value="next: Handler" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sF0zogOhZZLt-zc2PAyg-1">
+          <mxGeometry y="22" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cMUHtUb7-q01y3sAsfiM-2" value="&lt;i&gt;handle(Email)&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sF0zogOhZZLt-zc2PAyg-1">
+          <mxGeometry y="48" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sF0zogOhZZLt-zc2PAyg-11" value="&amp;nbsp; if(Email.type == 0){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;// put in a spam box&lt;br&gt;&amp;nbsp; }&lt;br&gt;&amp;nbsp; else{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;super.handle()&lt;br&gt;&amp;nbsp; }" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="53.5" y="571" width="148" height="125" as="geometry" />
@@ -201,6 +204,12 @@
         </mxCell>
         <mxCell id="rp65LQ5Hs3PU-woTZPaq-4" value="&amp;nbsp; if(Email.type == 0){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;// forward to the CEO&lt;br&gt;&amp;nbsp; }&lt;br&gt;&amp;nbsp; else{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;super.handle()&lt;br&gt;&amp;nbsp; }" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="364.5" y="571" width="148" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="cMUHtUb7-q01y3sAsfiM-3" value="&amp;nbsp; if(next != null){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; next.handle(Email)&lt;br&gt;&amp;nbsp; }" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="383" y="377" width="148" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="cMUHtUb7-q01y3sAsfiM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.777;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cMUHtUb7-q01y3sAsfiM-2" target="cMUHtUb7-q01y3sAsfiM-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
