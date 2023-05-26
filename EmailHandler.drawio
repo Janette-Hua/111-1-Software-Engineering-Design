@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T03:40:38.555Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Hz2yJQ666fON0peX-lSc" version="21.3.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-26T03:48:34.482Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_dy6OpK0Sp2bRvA6LM2E" version="21.3.3" type="github" pages="4">
   <diagram name="initialDesign" id="0KFL5eHQTMtoy3ooleH-">
     <mxGraphModel dx="968" dy="575" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -515,12 +515,15 @@
           <mxGeometry y="78" width="151.5" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5iKUeHApYEqJ20nOvoS8-32" value="&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&lt;br&gt;Handler&lt;/i&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="213.5" y="365" width="140" height="54" as="geometry">
+          <mxGeometry x="208" y="365" width="151" height="80" as="geometry">
             <mxRectangle x="210.5" y="375" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5iKUeHApYEqJ20nOvoS8-34" value="&lt;i&gt;handle(Email)&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5iKUeHApYEqJ20nOvoS8-32">
-          <mxGeometry y="28" width="140" height="26" as="geometry" />
+          <mxGeometry y="28" width="151" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5iKUeHApYEqJ20nOvoS8-55" value="&lt;i&gt;setNextHandler(Handler)&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5iKUeHApYEqJ20nOvoS8-32">
+          <mxGeometry y="54" width="151" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5iKUeHApYEqJ20nOvoS8-35" value="&amp;nbsp; if(Email.type == 0){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;// put in a spam box&lt;br&gt;&amp;nbsp; }&lt;br&gt;&amp;nbsp; else{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;if(next != null){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; next.handle();&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;}&lt;br&gt;&amp;nbsp; }" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="-65" y="615" width="148" height="166" as="geometry" />
