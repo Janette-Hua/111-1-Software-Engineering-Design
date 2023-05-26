@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T01:55:18.839Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-X_lL1KhrG52OSg1WXqN" version="21.3.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-26T01:59:14.354Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="wEEgUW8IfQ49kIzGR-g1" version="21.3.3" type="github" pages="3">
   <diagram name="initialDesign" id="0KFL5eHQTMtoy3ooleH-">
     <mxGraphModel dx="968" dy="575" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -351,7 +351,7 @@
         <mxCell id="rp65LQ5Hs3PU-woTZPaq-2" value="&amp;nbsp; if(Email.type == 1){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;// forward to the legal department&lt;br&gt;&amp;nbsp; }&lt;br&gt;&amp;nbsp; else{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;super.handle()&lt;br&gt;&amp;nbsp; }" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="210.5" y="571" width="148" height="136" as="geometry" />
         </mxCell>
-        <mxCell id="rp65LQ5Hs3PU-woTZPaq-4" value="&amp;nbsp; if(Email.type == 0){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;// forward to the CEO&lt;br&gt;&amp;nbsp; }&lt;br&gt;&amp;nbsp; else{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;super.handle()&lt;br&gt;&amp;nbsp; }" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="rp65LQ5Hs3PU-woTZPaq-4" value="&amp;nbsp; if(Email.type == 2){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;// forward to the CEO&lt;br&gt;&amp;nbsp; }&lt;br&gt;&amp;nbsp; else{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;super.handle()&lt;br&gt;&amp;nbsp; }" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="364.5" y="571" width="148" height="126" as="geometry" />
         </mxCell>
         <mxCell id="cMUHtUb7-q01y3sAsfiM-3" value="&amp;nbsp; if(next != null){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; next.handle(Email)&lt;br&gt;&amp;nbsp; }" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" vertex="1" parent="1">
