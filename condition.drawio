@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-28T08:44:41.361Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="HDX3t-tAAvhG7gP9LVXm" version="21.3.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-28T08:49:36.454Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="KDomp0xNm3T3l1fkS8WX" version="21.3.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="AllClasses">
     <mxGraphModel dx="2709" dy="1858" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -215,7 +215,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XdHSou-JIA7UMkWAoNbh" name="RelationWithHandlerMapping">
-    <mxGraphModel dx="2350" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2759" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -299,12 +299,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="neRAWvSR-OvXUUzDpF8q-23" value="RequestMappingHandlerMapping" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="344" y="790" width="576" height="120" as="geometry">
+          <mxGeometry x="344" y="790" width="576" height="100" as="geometry">
             <mxRectangle x="344" y="790" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="E16fV2oqMxBC9ne6lHUw-2" value="- config: RequestMappingInfo.BuilderConfiguration&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="neRAWvSR-OvXUUzDpF8q-23">
+          <mxGeometry y="40" width="576" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="neRAWvSR-OvXUUzDpF8q-24" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=16;" vertex="1" parent="neRAWvSR-OvXUUzDpF8q-23">
-          <mxGeometry y="40" width="576" height="8" as="geometry" />
+          <mxGeometry y="90" width="576" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="E16fV2oqMxBC9ne6lHUw-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;i style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;RequestCondition&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;+ combine(Type): Type&lt;br style=&quot;font-size: 16px;&quot;&gt;+&amp;nbsp;getMatchingCondition&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;(HttpServletRequest): Type&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;+&amp;nbsp;&lt;/span&gt;compareTo(Type, HttpServletRequest): int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="570" width="379.2" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DCeKBIivIFlmWO3foXL7-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;startSize=16;endSize=16;dashed=1;" edge="1" parent="1" source="DCeKBIivIFlmWO3foXL7-1" target="E16fV2oqMxBC9ne6lHUw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DCeKBIivIFlmWO3foXL7-1" value="RequestMappingInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="805" width="380" height="100" as="geometry">
+            <mxRectangle x="1085" y="800" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DCeKBIivIFlmWO3foXL7-2" value="- config: RequestMappingInfo.BuilderConfiguration&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="DCeKBIivIFlmWO3foXL7-1">
+          <mxGeometry y="40" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DCeKBIivIFlmWO3foXL7-3" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=16;" vertex="1" parent="DCeKBIivIFlmWO3foXL7-1">
+          <mxGeometry y="90" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DCeKBIivIFlmWO3foXL7-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;startSize=16;endSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E16fV2oqMxBC9ne6lHUw-2" target="DCeKBIivIFlmWO3foXL7-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="840" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
